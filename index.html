@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="box-main">
+        <input class="input" placeholder="Digite o nome da cidade">
+
+        <button class="button" onclick="clickButton()">
+            <img class="img-button" alt="Buscar" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="box-medium">
+            <h2 class="city">Tempo em Fortaleza</h2>
+
+            <p class="temp">29°C</p>
+
+            <div class="box-smaller">
+                <img class="img-previsao" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png"> 
+
+                <p class="text-forecast">Nublado</p>
+            </div>
+
+            <p class="moisture">Umidade: 76%</p>
+            
+        </div>
+    </div>
+</body>
+</html>
